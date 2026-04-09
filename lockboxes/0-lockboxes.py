@@ -7,8 +7,8 @@ Module to check if all boxes can be opened
 def canUnlockAll(boxes):
     """Determines if all boxes can be opened"""
     n = len(boxes)
-    opened = set([0])  # boîtes ouvertes
-    keys = [0]  # clés à explorer
+    opened = set([0])
+    keys = [0]
 
     while keys:
         current = keys.pop()
